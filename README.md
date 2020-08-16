@@ -46,10 +46,17 @@ Both networks are integrated by taking difference of outputs for fully connected
 Pictorial representation of network:
 ![image](https://miro.medium.com/max/4268/1*v40QXakPBOmiq4lCKbPu8w.png)
 
+Model was trained for 20000 iterations with batch size of 32. Weights were saved and validation performance was measured every 250 iterations.
 
 
-# 4. Te
+# 4. Testing
+
+Model was tested on 20 way one shot tasks from validation dataset. Accuracy was way better(80+%) than baseline models like nearest neighbour.
 
 
 
-# References - https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf
+# References - 
+
+https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf,
+
+https://towardsdatascience.com/one-shot-learning-with-siamese-networks-using-keras-17f34e75bb3d
