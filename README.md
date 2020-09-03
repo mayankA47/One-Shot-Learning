@@ -59,4 +59,4 @@ Model was tested on 20 way one shot tasks from validation dataset. Accuracy was 
 
 https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf,
 
-https://towardsdatascience.com/one-shot-learning-with-siamese-networks-using-keras-17f34e75bb3d
+
